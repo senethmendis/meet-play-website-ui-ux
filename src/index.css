@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #0b090a;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  
+}
+
+.to__back_white{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.blue__gradient {
+  background: rgb(233, 254, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 254, 255, 1) 10%,
+    rgba(51, 186, 180, 1) 100%
+  );
+  filter: blur(200px);
+}
+
+.select{
+  width: 100%;
+  max-width: 25rem;
+  background-color: white;
+  padding: 1rem; 
+  border-radius: 5px;
+  border: none;
+  margin: 8px 0;
+  outline: none;
+}
+
+.trq__gradient {
+  background: rgb(233, 254, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 211, 176,0.5) 10%,
+    rgba(29, 211, 176,1) 100%
+  );
+  filter: blur(200px);
+}
